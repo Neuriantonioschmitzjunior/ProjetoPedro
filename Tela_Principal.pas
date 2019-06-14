@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Unit1_Funcoes;
 
 type
   TForm1 = class(TForm)
@@ -23,7 +23,7 @@ type
     btnCalcular: TButton;
     cbMA1: TComboBox;
     cbMA3: TComboBox;
-    procedure btnCalcularClick(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -38,9 +38,6 @@ implementation
 {$R *.dfm}
 begin
    //oo
-procedure TForm1.btnCalcularClick(Sender: TObject);
-begin
-//lkjk
-end;
+
 
 end.
